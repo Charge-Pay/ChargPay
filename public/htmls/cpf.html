@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Confirmação de CPF - Pagamento</title>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+<link rel="stylesheet" href="../styles/cpf.css" /> </head>
+<body>
+
+<div class="container" role="main" aria-label="Dados para o pagamento e confirmação por SMS">
+  <h2>Dados para o Pagamento</h2>
+
+  <label for="cpfCodeDisplay">CPF:</label>
+  <div id="cpfCodeDisplay" class="input-display" aria-live="polite" aria-atomic="true" aria-label="Código de confirmação SMS digitado"></div>
+
+  <div class="keypad" role="group" aria-label="Teclado numérico para entrada do código SMS">
+    <button type="button" class="key" aria-label="Número 1" data-key="1">1</button>
+    <button type="button" class="key" aria-label="Número 2" data-key="2">2</button>
+    <button type="button" class="key" aria-label="Número 3" data-key="3">3</button>
+    <button type="button" class="key" aria-label="Número 4" data-key="4">4</button>
+    <button type="button" class="key" aria-label="Número 5" data-key="5">5</button>
+    <button type="button" class="key" aria-label="Número 6" data-key="6">6</button>
+    <button type="button" class="key" aria-label="Número 7" data-key="7">7</button>
+    <button type="button" class="key" aria-label="Número 8" data-key="8">8</button>
+    <button type="button" class="key" aria-label="Número 9" data-key="9">9</button>
+    <button type="button" class="key" aria-label="Número 0" data-key="0">0</button>
+    <button type="button" class="key" aria-label="Apagar" data-key="backspace">
+      <span class="material-symbols-outlined" aria-hidden="true">backspace</span>
+    </button>
+  </div>
+
+  <div class="actions">
+    <button type="button" class="action" id="cancelBtn">CANCELAR</button>
+    <button type="button" class="action" id="proceedBtn">PROSSEGUIR</button>
+  </div>
+
+  <div class="sac-text">SAC: 0800 000 1111</div>
+</div>
+
+<script src="../js/cpf.js"></script> </body>
+</html>

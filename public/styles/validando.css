@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(35, 34, 34);
+    color: #fcfbfb;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.loading-icons {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.loading-icons2 {
+    position:absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 20px;
+}
